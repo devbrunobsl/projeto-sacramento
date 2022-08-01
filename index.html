@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Sacramento</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="shortcut icon" href="src/imagens/chapeu.png" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"       rel="stylesheet">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/chapeu.png" alt="chapéu" class="chapeu"/>
+      <h1 class="titulo-cabecalho">Sacramento</h1>
+    </header>
+
+    <main class="sacramento-slider">
+      <button class="botao-seta botao-voltar" id="botao-voltar">
+        <img src="src/imagens/flecha.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-sacramento">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="titulo">Procurado</h2>
+            <p class="recompensa">R: $1000,00</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/horacio.png" alt="Horácio" class="imagem-sacramento"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="nome">Horácio</h3>
+            <p class="texto">Homem grisalho, com bigode grande e barbixa. Normalmente visto usando roupas de fazendeiro. Não se engane pela aparência e personalidade, pode ser extremamente persuasivo. Se avistado, contate as autoridades.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="titulo">Procurado</h2>
+            <p class="recompensa"> R: $900,00</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/gaspar.png" alt="Gaspar" class="imagem-sacramento"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="nome">Gaspar</h3>
+            <p class="texto">Homem de estatura média, nariz grande e cabelos com uma mecha grisalha. Extremamente perigoso, normalmente é visto usando roupas pretas e óculos escuro. Se avistado, não se aproxime e contate as autoridades.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="titulo">Procurado</h2>
+            <p class="recompensa">R: $1000,00</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/golias.png" alt="Golias" class="imagem-sacramento"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="nome">Golias</h3>
+            <p class="texto">Homem grande, amedrontador e com cicatrizes no rosto. Perigoso e violento. Se avistado, não se aproxime e contate as autoridades.</p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+            <div class="informacoes">
+              <h2 class="titulo">Procurado</h2>
+              <p class="recompensa">R: $1200,00</p>
+            </div>
+  
+            <div class="container-imagem">
+              <img src="src/imagens/cristina.png" alt="Cristina" class="imagem-sacramento"/>
+            </div>
+  
+            <div class="descricao">
+              <h3 class="nome">Cristina</h3>
+              <p class="texto">Cabelos ondulados e curtos nos ombros, é frequentemente vista usando um chapéu enfeitado com uma pena. Olhar penetrante e ameaçador. Hostil e muito habilidosa com o revólver. Se avistada, contatar imediatamente as autoridades.</p>
+            </div>
+          </li>
+      </ul>
+
+      <button class="botao-seta" id="botao-avancar">
+        <img src="src/imagens/flecha.png" alt="seta avançar" />
+      </button>
+    </main>
+    <footer class="rodape">
+      <button class="alarme" id="botao-alarme">
+        <p class="texto-alarme">Chamar as autoridades</p>
+      </button>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

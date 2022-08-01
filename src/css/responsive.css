@@ -1,0 +1,32 @@
+@media (max-width: 620px) {
+    .sacramento-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .botao-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-sacramento {
+        height: 480px;
+    }
+
+    .cartao .imagem-sacramento {
+        max-height: 230px;
+    }
+
+    .cartao .informacoes .titulo {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cartao .informacoes .recompensa {
+        font-size: 14px;
+    }
+}
